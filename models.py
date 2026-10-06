@@ -24,6 +24,10 @@ class Product:
         self.quantity = quantity
         self.photo = photo
 
+    def is_available(self):
+        """Возвращает True, если товар есть в наличии."""
+        return self.quantity > 0
+
     def total(self):
         """Общая стоимость (цена × количество)."""
         return self.price * self.quantity
@@ -43,3 +47,20 @@ class Product:
             f"{self.price} руб. × {self.quantity} = {self.total()} руб. "
             f"({self.indicator()})"
         )
+
+class Order:
+    """Класс Заказ."""
+    def __init__(self, order_id, date, client, product, quantity):
+        self.id = order_id
+        self.date = date
+        self.client = client
+        self.product = product      # объект Product
+        self.quantity = quantity
+
+    def total(self):
+        """Стоимость заказа."""
+        return self.product.price * self.quantity
+
+    def info(self):
+        return f"Заказ №{self.id} от {self.date}: {self.client} — {self.product.name} × {self.quantity}"
+
