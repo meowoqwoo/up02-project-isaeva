@@ -19,26 +19,19 @@ def get_previous_month_range(date):
         last_day_prev.strftime("%Y-%m-%d")
     )
 
-
 def has_orders_in_previous_month(product_id, date):
-    """
-    Есть ли заказы товара в предыдущем месяце?
-    
-    :param product_id: id товара
-    :param date: дата расчёта
-    :return: True / False
-    """
+    """Проверяет наличие заказов товара в предыдущем месяце."""
     start, end = get_previous_month_range(date)
 
-    conn = sqlite3.connect(DB_PATH)
-    cur = conn.cursor()
-    cur.execute(
-        "SELECT COUNT(*) FROM Заказ "
-        "WHERE товар_id = ? AND дата BETWEEN ? AND ?",
-        (product_id, start, end)
-    )
-    count = cur.fetchone()[0]
-    conn.close()
+    with sqlite3.connect(DB_PATH) as conn:
+        cur = conn.cursor()
+        cur.execute(
+            'SELECT COUNT(*) FROM "Заказ" '
+            'WHERE товар_id = ? AND дата BETWEEN ? AND ?',
+            (product_id, start, end)
+        )
+        count = cur.fetchone()[0]
+
     return count > 0
 
 
