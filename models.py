@@ -28,9 +28,6 @@ class Product:
         self.quantity = quantity
         self.photo = photo
 
-    def is_available(self):
-        """Возвращает True, если товар есть в наличии."""
-        return self.quantity > 0
 
     def price_with_discount(self, discount_percent):
         """Цена со скидкой."""
