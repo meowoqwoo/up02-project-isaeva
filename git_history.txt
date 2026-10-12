@@ -1,0 +1,121 @@
+* f94fa22 (HEAD -> main, origin/main, origin/HEAD) Добавлен important.txt, лог и tmp проигнорированы
+* 4deb00d Добавлен .gitignore с правилами для Python
+* cb5b54d ДЗ: работа с удалённым репозиторием
+*   745ee4a Разрешён конфликт README
+|\  
+| * 7244595 Update README.md
+* | 5b9d7de Изменён README локально
+|/  
+*   b2b5b78 Merge pull request #2 from meowoqwoo/feature/homework-8
+|\  
+| * ac54082 (origin/feature/homework-8, feature/homework-8) Добавлен файл homework_info
+|/  
+*   46849b7 Разрешён конфликт с GitHub
+|\  
+| * 81fb815 Update README.md
+| *   74bb043 Merge pull request #1 from meowoqwoo/feature/remote-test
+| |\  
+| | * 78de879 (origin/feature/remote-test) Добавлен файл в ветке feature/remote-test
+| |/  
+* / 558de21 Локальное изменение README
+|/  
+* c12da86 Update README.md
+* 3d074c1 Добавлен метод is_available
+*   9a3367f Разрешён конфликт в README.md
+|\  
+| * 75a66f0 (conflict-2) Изменено описание проекта в conflict-2
+* | 1000712 Изменено описание проекта в main
+|/  
+* e325e25 Добавлен метод order_info для заказа
+*   57a77fc Разрешён конфликт: скидка 25%
+|\  
+(END)
+*   46849b7 Разрешён конфликт с GitHub
+|\  
+| * 81fb815 Update README.md
+| *   74bb043 Merge pull request #1 from meowoqwoo/feature/remote-test
+| |\  
+| | * 78de879 (origin/feature/remote-test) Добавлен файл в ветке feature/remote-test
+| |/  
+* / 558de21 Локальное изменение README
+|/  
+* c12da86 Update README.md
+* 3d074c1 Добавлен метод is_available
+*   9a3367f Разрешён конфликт в README.md
+|\  
+| * 75a66f0 (conflict-2) Изменено описание проекта в conflict-2
+* | 1000712 Изменено описание проекта в main
+|/  
+* e325e25 Добавлен метод order_info для заказа
+*   57a77fc Разрешён конфликт: скидка 25%
+|\  
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+*   46849b7 Разрешён конфликт с GitHub
+|\  
+| * 81fb815 Update README.md
+| *   74bb043 Merge pull request #1 from meowoqwoo/feature/remote-test
+| |\  
+| | * 78de879 (origin/feature/remote-test) Добавлен файл в ветке feature/remote-test
+| |/  
+* / 558de21 Локальное изменение README
+|/  
+* c12da86 Update README.md
+* 3d074c1 Добавлен метод is_available
+*   9a3367f Разрешён конфликт в README.md
+|\  
+| * 75a66f0 (conflict-2) Изменено описание проекта в conflict-2
+* | 1000712 Изменено описание проекта в main
+|/  
+* e325e25 Добавлен метод order_info для заказа
+*   57a77fc Разрешён конфликт: скидка 25%
+|\  
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+*   46849b7 Разрешён конфликт с GitHub
+|\  
+| * 81fb815 Update README.md
+| *   74bb043 Merge pull request #1 from meowoqwoo/feature/remote-test
+| |\  
+| | * 78de879 (origin/feature/remote-test) Добавлен файл в ветке feature/remote-test
+| |/  
+* / 558de21 Локальное изменение README
+|/  
+* c12da86 Update README.md
+* 3d074c1 Добавлен метод is_available
+*   9a3367f Разрешён конфликт в README.md
+|\  
+| * 75a66f0 (conflict-2) Изменено описание проекта в conflict-2
+* | 1000712 Изменено описание проекта в main
+|/  
+* e325e25 Добавлен метод order_info для заказа
+*   57a77fc Разрешён конфликт: скидка 25%
+|\  
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
